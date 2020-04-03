@@ -1,0 +1,20 @@
+
+h1 {
+    animation: show 1s both ease 1s;
+}
+
+h2 {
+    animation: show 1s both ease 2s;
+}
+
+@keyframes show {
+	0% {
+		transform:translate(0,2em);
+		opacity:0;
+	}
+	100% {
+		transform:translate(0,0);
+		opacity:1;
+		text-shadow:none;
+	}
+}
